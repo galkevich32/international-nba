@@ -155,6 +155,7 @@ p.lead {
   max-width: 100%;
   border: none;
   margin: 0;
+  padding: 12px;
   display: block;
   height: auto; /* optional */
 }
