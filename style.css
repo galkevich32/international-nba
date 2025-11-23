@@ -153,7 +153,7 @@ p.lead {
     width: 95%;
     max-width: 1100px;
     margin: 0 auto;
-    margin-bottom: 32px;
+    margin-bottom: 42px !important;
   }
 }
 .chart-embed-small {
