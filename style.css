@@ -103,7 +103,7 @@ p.lead {
   border: 1px solid rgba(255,255,255,0.04);
 }
 .photo-wrap.center {
-  margin-bottom: 40px; /* increase space below the bubble */
+  margin-bottom: 32px; /* increase space below the bubble */
   display: flex;
   flex-direction: column; /* keep quote below/above in column order */
   align-items: flex-start;    /* center children horizontally */
@@ -160,7 +160,7 @@ p.lead {
 }
 @media (min-width: 900px) {
   .photo {
-    transform: scale(0.75); 
+    transform: scale(0.95); 
     transform-origin: center; /* keeps it centered */
   }
 }
