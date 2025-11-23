@@ -159,7 +159,8 @@ p.lead {
   border: none;
   height: auto; 
   display: block;
-  margin: 0;
+  margin-left: 5%;
+  margin-right:0;
 }
 
 @media (min-width: 900px) {
