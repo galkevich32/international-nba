@@ -72,6 +72,6 @@ line-height: 1.3;
 
 @media (min-width: 900px) {
   .photo {
-    max-width: 300px;
+    max-width: 600px;
   }
 }
