@@ -186,6 +186,6 @@ p.lead {
   .photo {
     max-width: 570px;
   }
-  .top-photo {margin-top: -20px;}
+  .top-photo {margin-top: -20px !important;}
 }
 
