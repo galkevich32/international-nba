@@ -12,7 +12,8 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
   font-family: Inter, system-ui, sans-serif;
   background: linear-gradient(180deg,#071022 0%, #081827 100%);
   line-height: 1.45;
