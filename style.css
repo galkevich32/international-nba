@@ -18,7 +18,7 @@ body{
   line-height:1.45;
 }
 .container {
-  max-width: 1500px;  /* controls how wide the page can get on desktop */
+  max-width: 1100px;  /* controls how wide the page can get on desktop */
   margin: 0 auto;     /* centers it horizontally */
   padding: 0 20px;    /* optional: some horizontal padding */
   display: grid;
