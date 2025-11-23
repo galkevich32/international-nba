@@ -155,7 +155,7 @@ p.lead {
 }
 .chart-embed-small {
   width: 100%;         /* smaller width */
-  max-width: 400px;
+  max-width: 500px;
   border: none;
   height: auto; 
   display: block;
@@ -165,9 +165,9 @@ p.lead {
 
 @media (min-width: 900px) {
   .chart-embed-small {
-    width: 70% !important;        /* fill most of the card */
+    width: 75% !important;       
     max-width: 600px !important; 
-    margin-left: 10px !important;  /* slight offset from left */
+    margin-left: 15px !important;  /* slight offset from left */
     margin-right: auto !important;  /* keep right side free */
     display: block;/* optional, based on card size */
   }
