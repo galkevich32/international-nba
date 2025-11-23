@@ -18,7 +18,7 @@ body{
   line-height:1.45;
 }
 .container {
-  max-width: 1200px;  /* controls how wide the page can get on desktop */
+  max-width: 1000px;  /* controls how wide the page can get on desktop */
   margin: 0 auto;     /* centers it horizontally */
   padding: 0 20px;    /* optional: some horizontal padding */
   display: grid;
@@ -29,7 +29,7 @@ header{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .brand{display:flex;gap:12px;align-items:center}
 .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#6dd3ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#04203a}
 h1 {
-  font-size: 32px; /* Larger */
+  font-size: 24px; /* Larger */
 .page-title, h1 {
   line-height: 1.08;
   font-weight: 700; /* adjust if needed */
@@ -37,7 +37,7 @@ h1 {
   margin: 0 0 0.4em;
 }
 h2 {
-  font-size: 24px; /* Larger */
+  font-size: 20px; /* Larger */
 p.lead {text-align: left;
       font-size: 16px; 
 line-height: 1.3;
