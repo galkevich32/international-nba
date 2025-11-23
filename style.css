@@ -29,7 +29,9 @@ h1{margin:0;font-size:22px}
   justify-content: center;
   margin: 0 0 0.4em;
 }
-p.lead{margin:8px 0;color:var(--muted)}
+p.lead {
+      font-size: 16px; /* Or any other pixel value */
+    }
 .lead {
   font-size: clamp(28px, 4.5vw, 48px);
   line-height: 1.3;
