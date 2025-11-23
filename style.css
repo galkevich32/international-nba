@@ -37,6 +37,10 @@ body {
   border-radius: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Layout: MOBILE DEFAULT */
 .layout {
   display: grid;
