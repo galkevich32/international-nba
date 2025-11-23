@@ -167,7 +167,6 @@ p.lead {
   .chart-embed-small {
     width: 60%;        /* fill most of the card */
     max-width: 500px;  /* optional, based on card size */
-    margin: 0 auto;    /* center inside card */
   }
 }
 
