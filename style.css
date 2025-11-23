@@ -26,6 +26,12 @@ p.lead{margin:8px 0;color:var(--muted)}
 .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:16px;border-radius:var(--radius);box-shadow:0 6px 20px rgba(2,6,23,0.6)}
 .layout{display:grid;grid-template-columns:1fr 420px;gap:18px;align-items:start}
 .photo{width:80%;height:660px;object-fit:cover;border-radius:10px;border:1px solid rgba(255,255,255,0.04)}
+.photo-wrap.center {
+  display: flex;
+  flex-direction: column; /* keep quote below/above in column order */
+  align-items: center;    /* center children horizontally */
+  justify-content: center;
+}
 .chart-embed-stack {
   display: flex;
   flex-direction: column; /* stack items vertically */
