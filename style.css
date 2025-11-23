@@ -170,6 +170,7 @@ p.lead {
 @media (min-width: 900px) {
   .chart-embed {
     width: 95%;        /* fill most of the card */
+    height: auto;
     max-width: 1100px; /* optional, based on card size */
     margin: 0; /* center inside card */
   }
