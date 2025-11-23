@@ -235,6 +235,14 @@ line-height: 1.3;
     margin: 0 auto;       /* card centered on page */
   }
 }
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;   /* allow card to use full screen width */
+    margin: 0;         /* remove horizontal centering */
+    padding: 12px;     /* optional: smaller padding for mobile */
+  }
+}
+
 
 p.lead {
   text-align: left;  /* only .lead paragraphs are left-aligned */
