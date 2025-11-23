@@ -219,8 +219,8 @@ p.lead {
 
 @media (min-width: 900px) {
   .chart-embed {
-    width: 100%;        /* fill the card width */
-    max-width: 100%;    /* no limit */
+    width: 90%;        /* fill the card width */
+    max-width: 90%;    /* no limit */
     margin: 0 0 15px 0; /* spacing below */
     display: block;     /* ensures it behaves like a block */
   }
