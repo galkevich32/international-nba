@@ -18,7 +18,7 @@ body{
   line-height:1.45;
 }
 .container {
-  max-width: 1000px;  /* controls how wide the page can get on desktop */
+  max-width: 1500px;  /* controls how wide the page can get on desktop */
   margin: 0 auto;     /* centers it horizontally */
   padding: 0 20px;    /* optional: some horizontal padding */
   display: grid;
@@ -28,14 +28,14 @@ body{
 header{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .brand{display:flex;gap:12px;align-items:center}
 .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#6dd3ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#04203a}
-h1 {
-  font-size: 24px; /* Larger */
-  text-align: center;}
-.page-title, h1 {
+h1, .page-title {
+  font-size: 24px;
   line-height: 1.08;
-  font-weight: 700; /* adjust if needed */
-  justify-content: center;
+  font-weight: 700;
+  text-align: center;
   margin: 0 0 0.4em;
+}
+
 }
 h2 {
   font-size: 18px; 
@@ -57,12 +57,15 @@ line-height: 1.3;
 }
 
 }
-.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:16px;border-radius:var(--radius);box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+
 .layout{display:grid;grid-template-columns:1fr 420px;gap:18px;align-items:start}
 @media (max-width: 768px) {
   .layout {
     grid-template-columns: 1fr; /* Stack into a single column */
   }
+.card h2 {
+  text-align: center;
+}
 
   .photo {
     width: 100%;
@@ -112,10 +115,6 @@ line-height: 1.3;
   border-radius: 8px;
 }
 
-@media (min-width: 900px) {
-  * change this number if you want it smaller or larger */
-  }
-}
 
 .chart-embed {
   width: 100%;
@@ -231,7 +230,7 @@ line-height: 1.3;
 
   /* Optional: prevent card from stretching too wide */
   .card {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;       /* card centered on page */
   }
 }
