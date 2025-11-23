@@ -70,9 +70,15 @@ body {
 @media (min-width: 900px) {
 
   .layout {
-    grid-template-columns: 1fr 420px;
+    grid-template-columns: 1fr;
   }
 
+  .container {
+    max-width: 75vw;   /* 75% of viewport width */
+    margin-left: 0;    /* align to the LEFT */
+    margin-right: auto;
+  }
+  
   .card {
     max-width: 1200px;
     background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
