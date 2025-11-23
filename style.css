@@ -41,6 +41,10 @@ h2 {
   text-align: center;
 }
 
+.card h2 {
+  text-align: center;
+}
+
 /* Layout: MOBILE DEFAULT */
 .layout {
   display: grid;
