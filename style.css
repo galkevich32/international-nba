@@ -234,3 +234,6 @@ line-height: 1.3;
   }
 }
 
+p.lead {
+  text-align: left;  /* only .lead paragraphs are left-aligned */
+}
