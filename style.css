@@ -176,8 +176,7 @@ p.lead {
 }
 @media (min-width: 900px) {
   .photo {
-    transform: scale(0.95); 
-    transform-origin: center; /* keeps it centered */
+    max-width: 570px;
   }
 }
 
