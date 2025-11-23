@@ -160,4 +160,51 @@ line-height: 1.3;
   body { padding: 12px; }      /* less padding on small screens */
   .layout { grid-template-columns: 1fr; } /* stack layout if needed */
 }
+/* Photos */
+.top-photo {
+  width: 90%;        /* phones/tablets */
+  max-width: 700px;  /* phone/tablet max */
+  border-radius: 8px;
+  margin: 15px auto; /* center on phones */
+  display: block;
+}
+
+.photo {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 15px auto; /* center on phones */
+  display: block;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Charts */
+.chart-embed {
+  width: 90%;
+  max-width: 700px;
+  border: none;
+  margin: 15px auto; /* center on phones */
+  display: block;
+}
+
+/* Desktop / laptop overrides */
+@media (min-width: 900px) {
+  .top-photo, .photo, .chart-embed {
+    width: auto;          /* natural width */
+    margin: 0 0 15px 0;   /* align left inside card */
+  }
+
+  /* Optional: layout columns for main content + sidebar */
+  .layout {
+    grid-template-columns: 1fr 450px;
+    align-items: start;
+  }
+
+  /* Optional: prevent card from stretching too wide */
+  .card {
+    max-width: 900px;
+    margin: 0 auto;       /* card centered on page */
+  }
+}
 
