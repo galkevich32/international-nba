@@ -179,7 +179,8 @@ p.lead {
 
 /* Small mobile extra tweak */
 @media (max-width: 480px) { 
-  body { padding: 12px; }
+  body { margin-top: 5px;
+  margin-left: 10px; }
 }
 @media (min-width: 900px) {
   .photo {
