@@ -85,7 +85,6 @@ line-height: 1.3;
 @media (min-width: 900px) {
   .top-photo { max-width: 700px; }
   .photo { max-width: 600px; }
-  .chart-embed { max-width: 700px; }
 }
 
 /* --------------------------- */
@@ -129,7 +128,7 @@ line-height: 1.3;
     margin: 0 auto;       /* card centered on page */
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .card {
     display: block;
     width: 100%;
@@ -164,7 +163,7 @@ p.lead {
   display: block;
   margin: 0;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .chart-embed {
     width: 95%;        /* fill most of the card */
     height: auto;
