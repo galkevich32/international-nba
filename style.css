@@ -167,8 +167,8 @@ p.lead {
   .chart-embed-small {
     width: 60%;        /* fill most of the card */
     max-width: 500px; 
-    margin-left: 5%;  /* slight offset from left */
-    margin-right: 0;  /* keep right side free */
+    margin-left: 0;  /* slight offset from left */
+    margin-right: auto;  /* keep right side free */
     display: block;/* optional, based on card size */
   }
 }
