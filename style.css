@@ -72,10 +72,23 @@ line-height: 1.3;
   justify-content: center;
 }
 
-/* small optional tweak to each embed card if you want padding */
 .chart-embed {
-  padding: 8px 0;
+  width: 90%;          /* phones/tablets */
+  max-width: 700px;
+  border: none;
+  margin: 15px auto;   /* center on phone */
+  display: block;
 }
+
+/* Desktop / laptop */
+@media (min-width: 900px) {
+  .chart-embed {
+    width: 100%;       /* stretch to fill card width */
+    max-width: none;   /* optional: let it fill card */
+    margin: 0 0 15px 0; /* left-aligned inside card */
+  }
+}
+
 
 @media (min-width: 900px) {
   .photo { max-width: 600px; }
