@@ -36,7 +36,6 @@ p.lead {
   line-height: 1.3;
   margin: 0 0 1rem;
   justify-content: center;
-  color: var(--muted, #6b7280);
 }
 .card {
   text-align: center;
