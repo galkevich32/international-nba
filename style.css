@@ -167,9 +167,7 @@ line-height: 1.3;
 }
 
 
-/* --------------------------- */
 /* LAPTOP & DESKTOP OVERRIDES  */
-/* --------------------------- */
 @media (min-width: 900px) {
   .top-photo { max-width: 700px; }
   .photo { max-width: 600px; }
@@ -214,13 +212,6 @@ line-height: 1.3;
   margin: 15px auto; /* center on phones */
   display: block;
 }
-
-/* Desktop / laptop overrides */
-@media (min-width: 900px) {
-  .chart-embed {
-    width: auto;          /* natural width */
-    margin: 0 0 15px 0;   /* align left inside card */
-  }
 
   /* Optional: layout columns for main content + sidebar */
   .layout {
