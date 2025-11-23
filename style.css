@@ -44,7 +44,7 @@ line-height: 1.3;
 }
 .card {
   text-align: center;      /* center all text inside card */
-  max-width: 900px;        /* card width on desktop */
+  max-width: 100%;        /* card width on desktop */
   margin: 0 auto;          /* center card on page */
  background: none;
     border: none;
