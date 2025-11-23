@@ -102,6 +102,13 @@ p.lead {
   object-fit: cover;
   border: 1px solid rgba(255,255,255,0.04);
 }
+.photo-wrap.center {
+  margin-bottom: 40px; /* increase space below the bubble */
+  display: flex;
+  flex-direction: column; /* keep quote below/above in column order */
+  align-items: flex-start;    /* center children horizontally */
+  justify-content: flex-start;
+}
 
 /* Charts: MOBILE DEFAULT */
 .chart-embed {
