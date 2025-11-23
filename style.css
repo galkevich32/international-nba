@@ -117,6 +117,7 @@ p.lead {
   display: block;
   border: none;
   margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 /* ------------------------------ */
