@@ -191,6 +191,6 @@ p.lead {
 
 @media (max-width: 899px) {
   .chart-embed-small {
-    margin-left: -5px; /* shift left on mobile/tablet */
+    margin-left: -10px; /* shift left on mobile/tablet */
   }
 }
