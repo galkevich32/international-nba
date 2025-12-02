@@ -192,10 +192,11 @@ p.lead {
     margin-left: -10px; /* shift left on mobile/tablet */
   }
 }
-.speech-bubble {
-  margin-top: -18px;
-}
 .photo-wrap {
-  position: relative;   /* anchor the bubble inside */
+  position: relative;  
 }
 
+.speech-bubble {
+  position: relative;
+  top: -18px;
+}
