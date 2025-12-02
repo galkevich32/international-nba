@@ -195,3 +195,7 @@ p.lead {
 .speech-bubble {
   margin-top: -18px;
 }
+.photo-wrap {
+  position: relative;   /* anchor the bubble inside */
+}
+
