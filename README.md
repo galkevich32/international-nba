@@ -1,2 +1,2 @@
 # international-nba
-Once dominated by homegrown players, the National Basketball Association is growing more international. This season, a record-breaking 135 international players made it to the league
+Once dominated by homegrown talent, the National Basketball Association is growing ever more international. While opening-night rosters set an early milestone with 135 foreign‑born players from 43 countries, the final regular-season numbers pushed the record even higher. A total of 142 international athletes from 47 countries across six continents played in the 2025-26 season. Their total share of the league—24.4% (142 of 582 players)—stands as the highest ever.
